@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("image/asteam.gif");
+  background-size: cover;
+  background-position: 90%;
+  font-family: sans-serif;
+  background-color: black;
+}
+.tda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-tda {
+  width: auto;
+  height: auto;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(5px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 7px 15px rgba(255, 255, 255, 0.25);
+  color: white;
+}
+.tda-new {
+  margin-top: 20px;
+}
+.tda-tilte h1 {
+  font-family: "Brush Script MT";
+  font-size: 50px;
+}
+#tda-new-input {
+  width: 300px;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding: 0 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 7px 15px rgba(0, 0, 0, 0.25);
+  color: white;
+  margin-right: 10px;
+  font-size: 16px;
+}
+#tda-new-input::placeholder {
+  color: #ffffff; /* Đổi thành màu bạn muốn */
+  opacity: 0.7; /* Giữ nguyên độ hiển thị (tùy chọn) */
+}
+#tda-new-btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 7px 15px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  color: white;
+  padding: 0;
+}
+#tda-new-btn:active {
+  opacity: 0.5;
+}
+.tda-clear {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#tda-clear-content {
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+#tda-clear-btn {
+  width: 70px;
+  height: 50px;
+  border: none;
+  padding: 0 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 7px 15px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  color: white;
+  padding: 0;
+}
+#tda-clear-btn:active {
+  opacity: 0.7;
+}
+ul {
+  list-style: none;
+}
+li {
+  height: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px) saturate(180%);
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+
+  color: white;
+  margin: 10px 0;
+  font-family: "Patrick Hand", cursive;
+}
+.delete {
+  height: 100%;
+  width: 70px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  background: rgba(0, 0, 0, 0.15);
+  color: white;
+  font-weight: bold;
+  display: none;
+}
+li:hover .delete {
+  display: block;
+}
+.text {
+  margin-left: 12px;
+}
