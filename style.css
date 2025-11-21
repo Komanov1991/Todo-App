@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: url("image/asteam.gif");
+  background-image: url("image/asteam.gif");
   background-size: cover;
   background-position: 90%;
   font-family: sans-serif;
